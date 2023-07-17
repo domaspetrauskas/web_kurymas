@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e6e6;
+}
+
+.page1 {
+  position: relative;
+}
+
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(116, 114, 114, 0.5);
+  padding: 10px;
+  z-index: 100;
+  
+}
+
+.image-container {
+  position: relative;
+  z-index: 1;
+}
+
+.flex-container {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.site-header ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.image-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 25%;
+  height: auto;
+}
+
+.background-image {
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+.kalnai {
+  width: 100%;
+  height: auto;
+}
+
+.pavadinimas1 {
+  text-align: center;
+  width: 100%;
+  padding-left: 34%;
+  padding-right: 34%;
+  padding-top: 10px;
+}
+
+p {
+  color: #797c7c;
+}
+
+.page2 p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pavadinimas1 h1 {
+  color: #865b52;
+  text-decoration: line-through;
+  text-decoration-color: #000;
+  text-decoration-thickness: 1%;
+  
+}
+
+
+.containers {
+  display: table;
+  float: left;
+  width: 45%;
+  padding: 5%;
+}
+
+.play img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  
+ 
+}
+
+.play .playmid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  
+}
+
+.play {
+  position: relative;
+  display: inline-block;
+  
+}
+

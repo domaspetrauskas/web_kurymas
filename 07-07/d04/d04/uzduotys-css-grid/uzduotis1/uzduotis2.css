@@ -1,0 +1,45 @@
+html, body {
+    background-color: #ffeead;
+}
+.container {
+    display: grid;
+  
+   
+    grid-gap: 3px;
+    grid-template:repeat(3, 50px) / repeat(4,1fr);
+    grid-template-areas:
+    "h h h h"
+    "c c m m"
+    "c c b f"
+   
+    
+}
+.red {
+background-color: red;
+border-radius:  10px;
+grid-area: h;
+}
+
+.blue {
+background-color: blue;
+border-radius: 10px;
+grid-area: c;
+}
+
+.green {
+background-color: green;
+border-radius: 10px;
+grid-area: m;
+}
+
+.purple {
+background-color:purple;
+border-radius: 10px;
+grid-area: b;
+}
+
+.purple2 {
+background-color: purple;
+border-radius: 10px;
+grid-area: f;
+}
