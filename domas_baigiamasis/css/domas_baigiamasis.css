@@ -22,7 +22,7 @@ body html {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(116, 114, 114, 0.5);
+  background-color: rgba(116, 114, 114, 0.678);
   padding: 10px;
   z-index: 100;
   
@@ -45,6 +45,38 @@ body html {
   text-decoration: none;
   color: #000;
 }
+
+
+/* LINIJA IS KAIRES I DESINE */
+
+
+.line {
+  width: 80%;
+  height: 1px;
+  background-color: #000; 
+  margin: 5px 0; 
+}
+
+/* PAVADINIMU SPAVLOS */
+
+
+.page3 .pavadinimas1 h1 {
+  color:#62a2ad;
+}
+
+
+.page4 .pavadinimas1 h1 {
+  color:#000;
+}
+
+
+.page6_2 .pavadinimas2 h1 {
+  color:#62a2ad;
+
+
+}
+
+
 
 .image-center {
   position: absolute;
@@ -74,6 +106,15 @@ body html {
   padding-right: 34%;
   padding-top: 5%;
  
+}
+
+.pavadinimas2 {
+  text-align: center;
+  width: 100%;
+  color: #865b52;
+  text-decoration: line-through;
+  text-decoration-color: #000;
+  text-decoration-thickness: 1%;
 }
 
 p {
@@ -140,8 +181,7 @@ p {
 .str2 {
   height: 25%;
   width: 35%;
-  /* border-style: solid;
-  border-color: crimson; */
+ 
   
 }
 
@@ -150,6 +190,11 @@ p {
   color: #000;
 }
 
+
+/* MYGTUKAS  */
+
+
+
  button{
   background-color: transparent;
   border: 1px solid;
@@ -157,7 +202,7 @@ p {
    color: #797c7c; /*spalva pats padariau nes man graziau nei juoda */
   font-size: 18px; 
   padding: 12px 20px; 
-  /* border-radius: 5px;  */
+  border-radius: 5px; 
   text-decoration: none; 
   cursor: pointer; 
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
@@ -176,14 +221,18 @@ h4 {
   margin-left: 10%;
         float: left;
         width: 40%;
+        padding-bottom: 30px;
 
   
 }
 
 .deze iframe {
-  width:90%;
+  width:100%;
 padding-bottom: 5%;
-  
+width:560px; 
+height:315px; 
+border: 0; 
+
 }
 
 .page4:after {
@@ -197,19 +246,163 @@ padding-bottom: 5%;
 }
 
 
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: rgba(0, 0, 0, 0); 
+  padding: 20px;
+  color: #fff; 
+  border-radius: 10px; 
+}
+
+.carousel-caption h3 {
+  font-size: 24px; 
+  font-weight: bold; 
+}
+ /* CTRL F(FIND) */
 /* !!!!!!!       JS         !!!!! */
 
-.f-carousel__slide {
-  position: relative;
-  flex: 0 0 auto;
-  width: var(--f-carousel-slide-width);
-  max-width: 100%;
-  height: var(--f-carousel-slide-height);
-  margin: 0 var(--f-carousel-spacing) 0 0;
-  padding: var(--f-carousel-slide-padding);
-  overflow-x: hidden;
-  overflow-y: auto;
-  overscroll-behavior: contain;
-  outline: 0;
-  transform-origin: center center;
+
+/* ICONS */
+
+
+.bigger-icon {
+  font-size: 36px;
+  padding: 20px;
+  
 }
+
+
+
+
+.page5 {
+  background-color:  #1d1e21;
+}
+
+  
+.page6 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.box, .box2, .box3, .box4, .box5, .box6 {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+
+
+
+.box {
+background-image: url(../images/images/photo11_26.jpg);
+}
+
+.box2 {
+  background-image: url(../images/images/photo12_28.jpg);
+}
+
+.box3 {
+  background-image: url(../images/images/photo14_36.jpg);
+}
+
+.box4 {
+  background-image: url(../images/images/photo14_36.jpg);
+}
+
+.box5 {
+  background-image: url(../images/images/photo15_35.jpg);
+}
+
+.box6 {
+  background-image: url(../images/images/photo16_38.jpg);
+}
+
+.page6_2 {
+ 
+}
+
+
+.underline {
+  text-decoration: underline;
+}
+
+
+.page6_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 60%;
+  width: 100%; 
+  margin: 0 auto; 
+  background-image: url(../images/images/photo17_42.jpg);
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+
+}
+
+.page6_2 .pavadinimas2 {
+  text-align: start;
+
+  margin: 10px 0;
+}
+
+.Box_Box {
+  width: 40%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 10%;
+  padding-top: 9%;
+}
+
+.Box_Box h1 {
+  white-space: nowrap; /* Prevent line break */
+}
+
+.Box_Box p {
+  margin: 10px 0;
+}
+
+.line2 {
+  width: 1px;
+  height: 80px;
+  background-color: #000;
+  margin: 10px 0;
+}
+
+.page6_2 p {
+  width: 100%;
+  text-align: left;
+}
+
+.line3 {
+  width: 1px;
+  height: 140px;
+  background-color: #000;
+  margin: 10px 0;
+}
+
+.line4 {
+  width: 30%;
+  height: 1px;
+  background-color: #000; 
+  
+}
+
+/* INPUT laukeliai*/
+
+
+input {
+  border: none; 
+  border-bottom: 1px solid black; 
+  outline: none; 
+}
+
