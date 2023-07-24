@@ -27,21 +27,27 @@ html {
   z-index: 100;
 }
 
-.image-container {
-  position: relative;
-  z-index: 1;
-}
-
 .flex-container {
   display: flex;
-  list-style: none;
   justify-content: space-around;
   align-items: center;
+  list-style: none;
 }
 
 .site-header ul li a {
   text-decoration: none;
   color: #000;
+}
+
+.image-container {
+  position: relative;
+}
+
+.background-image,
+.image-center,
+.kalnai {
+  width: 100%;
+  height: auto;
 }
 
 .image-center {
@@ -50,47 +56,40 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 25%;
-  height: auto;
-}
-
-.background-image {
-  z-index: 1;
-  width: 100%;
-  height: auto;
-}
-
-.kalnai {
-  width: 100%;
-  height: auto;
+  max-width: 25%;
 }
 
 .pavadinimas1 {
   text-align: center;
-  width: 100%;
-  padding-left: 34%;
-  padding-right: 34%;
-  padding-top: 10px;
+  padding: 5% 34%;
 }
 
-p {
+.page2 p,
+.page3 p {
   color: #797c7c;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
-.pavadinimas1 h1 {
+.page2 h1,
+.page3 h1 {
   color: #865b52;
   text-decoration: line-through;
   text-decoration-color: #000;
   text-decoration-thickness: 1%;
 }
 
+.str1,
+.str2 {
+  display: flex;
+}
+
 .containers {
-  display: table;
-  float: left;
   width: 45%;
   padding: 5%;
+}
+
+.play {
+  position: relative;
+  display: inline-block;
 }
 
 .play img {
@@ -105,10 +104,16 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
+  color: white;
 }
 
-.play {
-  position: relative;
-  display: inline-block;
+.background1 {
+  background-image: url('images/images/photo6_11.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15%;
 }
 
+h4 {
+  color: #797c7c;
+}
