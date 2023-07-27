@@ -850,12 +850,12 @@ input  {
   justify-content: space-evenly;
 }
 
-button{
 
-  padding: 0;
-  border: none;
-  background: none;
-}
 p{
   text-align: center;
 }
+
+
+/* #bt0, #bt1, #bt2, #bt3, #bt4, {
+
+} */

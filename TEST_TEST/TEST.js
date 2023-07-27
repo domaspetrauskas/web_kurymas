@@ -3,11 +3,11 @@
 
 var options = [
 
-    'pirmo desc',
-    'antro desc',
-    'trecio desc',
-    'ketvirto desc',
-    'penkto desc',
+    'pirmo desc asss',
+    'antro desc ssssss',
+    'trecio desc dddddddd',
+    'ketvirto desc ffffff',
+    'penkto desc bbbbbbb',
   
   ]
   
