@@ -20,6 +20,8 @@
   <!-- pasirinkti divo viduj tikslu -->
   <div class="page1">
     <header class="site-header">
+    <div class="menu-icon">&#9776;</div>
+      <nav>
       <ul class="flex-container">
         <li><a href="#">ABOUT</a></li>
         <li><a href="#">DISCOGRAPHY</a></li>
@@ -30,6 +32,7 @@
         <li><a href="#">HISTORY</a></li>
         <li><a href="#">CONTACT</a></li>
       </ul>
+      </nav>
     </header>
     <div class="image-container">
 
@@ -63,16 +66,16 @@
           at SXSW they were endorsed by Blue Microphones. They also toured the western United States with Nico Vega and
           Saint Motel. They also performed at Bite of Las Vegas Festival 2010, New Noise Music Festival, Neon Reverb
           Festival, and Fork Fest.</p>
-          <div class="play">
-            <img src="images/images/photo1.jpg" alt="lapai1">
-            <div class="playmid">
-              <div class="playwhite">
-                PLAY
-              </div>
+        <div class="play">
+          <img src="images/images/photo1.jpg" alt="lapai1">
+          <div class="playmid">
+            <div class="playwhite">
+              PLAY
             </div>
           </div>
+        </div>
 
-        
+
       </div>
     </div>
     <div class="str1">
@@ -89,14 +92,14 @@
           band themselves, as well as English hip-hop producer Alex da Kid and Brandon Darner from the American indie
           rock group The Envy Corps. It was mastered by Joe LaPorta. According to frontman Dan Reynolds, the album took
           three years to finish...</p>
-          <div class="play">
-            <img src="images/images/photo2.jpg" alt="lapai2">
-            <div class="playmid">
-              PLAY
-            </div>
+        <div class="play">
+          <img src="images/images/photo2.jpg" alt="lapai2">
+          <div class="playmid">
+            PLAY
           </div>
+        </div>
 
-        
+
       </div>
     </div>
     <div class="str1">
@@ -112,14 +115,14 @@
         <p>Self-produced by members of the band along with English hip-hop producer Alexander Grant,
           known by his moniker Alex da Kid, the album was released by Interscope Records and Grant's KIDI- naKORNER
           label on February 17, 2015, in the United States.</p>
-          <div class="play">
-            <img src="images/images/photo2.jpg" alt="lapai2">
-            <div class="playmid">
-              PLAY
-            </div>
+        <div class="play">
+          <img src="images/images/photo2.jpg" alt="lapai2">
+          <div class="playmid">
+            PLAY
           </div>
+        </div>
 
-        
+
       </div>
     </div>
     <img src="images/images/photo4_09.jpg" alt="kalnai" class="kalnai">
@@ -186,20 +189,14 @@
       <button>Visit the iTunes ></button>
     </div>
     <div class="deze">
-      <iframe  src="https://www.youtube.com/embed/oh2u7aSxYIU" title="YouTube video player"
-        
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/oh2u7aSxYIU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
   <div class="page4">
-    <div class="deze">
-      <iframe  src="https://www.youtube.com/embed/6lWNCilZo1A" title="YouTube video player"
-        
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
+    <div class="deze2">
+      <iframe src="https://www.youtube.com/embed/6lWNCilZo1A" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    <div class="deze">
+    <div class="deze2">
       <p>20.07.2015</p>
       <div class="line"></div>
 
@@ -218,7 +215,7 @@
     </div>
   </div>
   <div class="page4">
-    <div class="deze">
+    <div class="deze3">
       <p>03.04.2015</p>
       <div class="line"></div>
 
@@ -234,11 +231,8 @@
       <br>
       <button>Visit the iTunes ></button>
     </div>
-    <div class="deze">
-      <iframe  src="https://www.youtube.com/embed/Bjfteex16QA" title="YouTube video player"
-        
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
+    <div class="deze3">
+      <iframe src="https://www.youtube.com/embed/Bjfteex16QA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
   </div>
@@ -334,7 +328,7 @@
       <h3>Smoke and Mirrors</h3>
       <p>
         Hard Rock Cafe teamed with the band, grant- ing them the first ever full access to take con- trol of Hard Rock
-        Cafe's internal video system (more than 20,000 screens at all 151 locations
+        Cafe's internal video system more than 20,000 screens at all 151 locations
       </p>
       <br>
     </div>
@@ -417,8 +411,8 @@
       <div class="line2"></div>
       <p>01.04.2015</p>
       <div class="line3"></div>
-    
-    
+
+
       <p class="BOLD">Smoke + Mirrors Tour</p>
       <div class="line4"></div>
 
@@ -438,42 +432,83 @@
 
 
 
-    <div class="page7"></div>
+  <div class="page7">
 
 
-
-    <div class="last_page">
-
-
-    <main>
-    <?php 
-    require __DIR__ . '/src/index.php';
-    ?>
-            <div class="container_forma">
-            <form id="contact" action="domas_baigiamasis.php" method="post">
-                <h1>CONTACT</h1>
-                <p>Canada Island, Division No. 23, Unorganized, MB, Canada</p>
-                <p><a href="tel:123-456-7890">Tel.+123 456 7890</a></p>
-                <br>
-                <p><input type="text" name="vardas" placeholder="Jūsų vardas" required autofocus></p>
-                <br>
-                <p><input type="email" name="email" placeholder="Jūsų el. pašto adresas" required></p>
-                <br>
-                <p><textarea placeholder="Jūsų žinutė..." name="zinute" required></textarea></p>
-                <br>
-                <p><button name="submit" type="submit" id="contact-submit">Siųsti</button></p>
-            </form> 
-            </div>
-        </main>
-
-      
+    <div class="history_main">
+      <div class="pavadinimas1">
+        <h1>
+          HISTORY
+        </h1>
+      </div>
+      <p>
+        In 2008, lead singer Dan Reynolds met drummer Andrew Tolman at Brigham Young University where they were both students. Tolman recruited longtime high school friend Daniel Wayne "Wing" Sermon,
+        who had graduated from Berklee College of Music
+      </p>
     </div>
 
+    <div class="history_after">
+    <div class="Armagedonas">
+
+<button id="btn0" onclick="vienas()">MAR 16</button>
+<button id="btn1" onclick="du()">APR 11</button>
+<button id="btn2" onclick="trys()">MAY 09</button>
+<button id="btn3" onclick="keturi()">JUN 06</button>
+<button id="btn4" onclick="penki()">JUL 25</button>
+
+</div>
+
+<p id="vidurys"></p>
+       
+      </div>
+
+    
+     
+
+
+  </div>
+
+
+
+  <div class="last_page">
+
+
+    <main class="formosF">
+      <?php
+      require __DIR__ . '/src/index.php';
+      ?>
+      <div class="container_forma">
+        <form id="contact" action="domas_baigiamasis.php" method="post">
+          <h1>CONTACT</h1>
+          <p>Canada Island, Division No. 23, Unorganized, MB, Canada</p>
+          <p><a href="tel:123-456-7890">Tel.+123 456 7890</a></p>
+          <br>
+          <p><input type="text" name="vardas" placeholder="Jūsų vardas" required autofocus><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></p>
+          <br>
+          <p><input type="email" name="email" placeholder="Jūsų el. pašto adresas" required><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></p>
+          <br>
+          <p><textarea placeholder="Jūsų žinutė..." name="zinute" required></textarea><a href="https://twitter.com/home" target="_blank"><i class="bi bi-twitter"></i></a></p>
+          <br>
+          <p><button name="submit" type="submit" id="contact-submit">Siųsti</button></p>
+        </form>
+      </div>
+    </main>
+
+
+  </div>
 
 
 
 
 
+  <script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const navMenu = document.querySelector('.site-header nav ul');
+
+    menuIcon.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  </script>
 
 
 </body>

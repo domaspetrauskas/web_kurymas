@@ -1,58 +1,20 @@
-/* Add this to your existing CSS styles */
-.page5 {
-  overflow: hidden; /* Hide any overflowing content outside the page */
-}
+.Armagedonas{
 
-.container {
-  width: 100%; /* Set the container to take the full width of the page */
-  padding: 0; /* Remove any default padding on the container */
-  margin: 0; /* Remove any default margin on the container */
-}
-
-.carousel {
-  width: 100%; /* Set the carousel to take the full width of the container */
-  overflow: hidden; /* Hide any overflowing content outside the carousel */
-  position: relative; /* Add relative positioning to the carousel */
-}
-
-.carousel-inner {
-  display: flex; /* Use flexbox to arrange carousel items in a row */
-  width: 300%; /* Set the carousel-inner to be three times the width of the container */
-  transition: transform 0.6s ease; /* Add smooth transition for sliding effect */
-}
-
-.carousel-item {
-  flex: 0 0 33.333333%; /* Set each carousel item to occupy one-third of the carousel-inner width */
-  position: relative; /* Add relative positioning to the carousel items */
-}
-
-.carousel-item img {
-  width: 100%; /* Ensure the images occupy the full width of each carousel item */
-}
-
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Center the caption both horizontally and vertically */
-  background: rgba(0, 0, 0, 0); /* Customize the background color and opacity */
-  padding: 20px;
-  color: #fff; /* Customize the text color */
-  border-radius: 10px; /* Customize the border radius */
-}
-
-.carousel-caption h3 {
-  font-size: 24px; /* Customize the font size */
-  font-weight: bold; /* Customize the font weight */
-}
-
-/* Override Bootstrap carousel styles */
-.carousel-item-next,
-.carousel-item-prev,
-.carousel-item.active {
   display: flex;
+  font-weight: bold;
+  justify-content: space-evenly;
 }
 
-.carousel-inner::before {
-  display: none; /* Hide the Bootstrap default navigation indicators */
+button{
+
+  padding: 0;
+  border: none;
+  background: none;
 }
+p #vidurys{
+  display: flex;
+ width: 100%;
+  text-align: center;
+}
+
+

@@ -41,11 +41,26 @@ body html {
   
 }
 
+.site-header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .site-header ul li a {
   text-decoration: none;
   color: #000;
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
-
+.site-header ul li a:hover {
+  background-color: #d4d4d4;
+}
 
 /* LINIJA IS KAIRES I DESINE */
 
@@ -126,14 +141,16 @@ p {
   margin-bottom: 10px;
 }
 
-.pavadinimas1 h1 {
+.pavadinimas1 h1, .container_forma h1 {
   color: #865b52;
   text-decoration: line-through;
   text-decoration-color: #000;
   text-decoration-thickness: 1%;
   
 }
-
+.container_forma h1 {
+  color: #000;
+}
 
 .containers {
   display: table;
@@ -217,7 +234,7 @@ h4 {
   font-weight: bold;
 }
 
-.deze {
+.deze, .deze2, .deze3 {
   margin-left: 10%;
         float: left;
         width: 40%;
@@ -226,7 +243,7 @@ h4 {
   
 }
 
-.deze iframe {
+.deze iframe, .deze2 iframe, .deze3 iframe {
   width:100%;
 padding-bottom: 5%;
 width:560px; 
@@ -342,9 +359,12 @@ background-image: url(../images/images/photo11_26.jpg);
   width: 100%; 
   margin: 0 auto; 
   background-image: url(../images/images/photo17_42.jpg);
-  background-size: cover; /* Make the background image cover the container */
+  background-size:cover; /* Make the background image cover the container */
   background-repeat: no-repeat; /* Prevent the image from repeating */
+}
 
+.page6_2 img {
+object-fit: contain;
 }
 
 .page6_2 .pavadinimas2 {
@@ -399,10 +419,443 @@ background-image: url(../images/images/photo11_26.jpg);
 
 /* INPUT laukeliai*/
 
-
-input {
+textarea {
   border: none; 
   border-bottom: 1px solid black; 
   outline: none; 
+  background-color: transparent;
+  width: 25%;
+  
 }
 
+input  {
+  border: none; 
+  border-bottom: 1px solid black; 
+  outline: none; 
+  background-color: transparent;
+  width: 25%;
+}
+
+.formosF {
+  background-image:url(../images/images/photo19_46.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+ padding-left: 60%;
+  text-align: left;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  margin: 0;
+}
+
+.container_forma  i {
+  color: #000;
+  margin-left: 40px;
+}
+
+
+.history_main p {
+ padding-left: 30%;
+ padding-right: 30%;
+}
+
+
+
+.divider {
+  width: calc(100% - 40px); 
+  height: 1px;
+  background-color: #000;
+  margin: 50px auto; 
+}
+
+
+.history_LL {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.history_LL h2 {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+
+                /* !!!!!!!!!!!!!!!!!!!!!!!!!
+                !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                !!!!!!!PHONE VERSION!!!!!!!!
+                !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* keisti order kad vidoe susikeistu */
+
+
+@media (max-width: 767px) {
+ html{
+    margin-top: 0;
+  }
+
+  .site-header ul {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(116, 114, 114, 0.678);
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 99; 
+    
+  }
+
+
+  .site-header {
+    padding: 25px;
+  }
+
+  .site-header ul.active {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+ 
+
+  .pavadinimas1, .pavadinimas2 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+ 
+
+  .pavadinimas2 {
+    padding-bottom: 5%;
+  }
+
+ 
+
+  .page4 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    
+  }
+.deze, .deze2, .deze3 {
+  flex: 1; 
+  padding: 10px;
+  
+ 
+}
+
+.deze iframe, .deze2 iframe, .deze3 iframe{
+  max-width: 230%;
+  max-height: 60%;
+}
+
+.deze2:nth-child(1) {
+  order: 2; 
+}
+
+.deze2:nth-child(2) {
+  order: 1; 
+}
+
+.deze3:nth-child(1) {
+  order: 1; 
+}
+
+.deze3:nth-child(2) {
+  order: 2; 
+}
+
+.iframe{
+  padding-left: 30px;
+}
+  .background1{
+    width: 100%;
+  }
+
+  .containers {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    
+    
+  }
+
+  .page5{
+    
+  }
+
+  .page6 {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    
+  }
+
+  .page6_2 {
+    padding-left: 0;
+  }
+ 
+  .box, .box2, .box3, .box4, .box5, .box6{
+    background-size: 100%;
+
+  }
+
+  .Box_Box {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .Box_Box h1 {
+    font-size: 18px;
+  }
+
+  .Box_Box p {
+    margin-left: 0;
+  }
+
+  .carousel-caption {
+    padding: 10px;
+  }
+
+  .formosF {
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+  }
+
+  textarea, input {
+    width: 90%;
+  }
+
+  .history_main p {
+    padding: 3% 10%;
+}
+
+.str2{
+ margin:20px;
+  width: 65%;
+}
+
+
+.line{
+  width: 80%;
+  height: 1px;
+  background-color: #000;
+  margin: 5px 0;
+}
+
+}
+
+                /* !!!!!!!!!!!!!!!!!!!!!!!!!
+                !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                !!!!!!!TABLET VERSION!!!!!!!
+                !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                !!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+@media (max-width: 991px) {
+  html{
+     margin-top: 0;
+   }
+ 
+   .site-header ul {
+     display: none;
+     flex-direction: column;
+     background-color: rgba(116, 114, 114, 0.678);
+     position: fixed;
+     top: 50px;
+     left: 0;
+     width: 100%;
+     z-index: 99; 
+     
+   }
+ 
+ 
+   .site-header {
+     padding: 25px;
+   }
+ 
+   .site-header ul.active {
+     display: flex;
+   }
+ 
+   .menu-icon {
+     display: block;
+     position: fixed;
+     top: 10px;
+     left: 10px;
+     font-size: 24px;
+     cursor: pointer;
+     z-index: 100;
+   }
+ 
+  
+ 
+   .pavadinimas1, .pavadinimas2 {
+     padding-left: 10%;
+     padding-right: 10%;
+   }
+ 
+  
+ 
+   .pavadinimas2 {
+     padding-bottom: 5%;
+   }
+ 
+  
+ 
+   .page4 {
+     display: flex;
+     flex-direction: column;
+     padding-left: 30px;
+     
+   }
+ .deze, .deze2, .deze3 {
+   flex: 1; 
+   padding: 10px;
+   
+  
+ }
+ 
+ .deze iframe, .deze2 iframe, .deze3 iframe{
+   max-width: 230%;
+   max-height: 60%;
+ }
+ 
+ .deze2:nth-child(1) {
+   order: 2; 
+ }
+ 
+ .deze2:nth-child(2) {
+   order: 1; 
+ }
+ 
+ .deze3:nth-child(1) {
+   order: 1; 
+ }
+ 
+ .deze3:nth-child(2) {
+   order: 2; 
+ }
+ 
+ .iframe{
+   padding-left: 30px;
+ }
+   .background1{
+     width: 100%;
+   }
+ 
+   .containers {
+     width: 90%;
+     margin-left: 5%;
+     margin-right: 5%;
+     padding: 2%;
+     
+     
+   }
+ 
+   .page5{
+     
+   }
+ 
+   .page6 {
+     display: flex;
+     flex-direction: column;
+     padding: 10%;
+     
+   }
+ 
+   .page6_2 {
+     padding-left: 0;
+   }
+  
+   .box, .box2, .box3, .box4, .box5, .box6{
+     background-size: 100%;
+ 
+   }
+ 
+   .Box_Box {
+     width: 90%;
+     margin-left: 5%;
+     margin-right: 5%;
+   }
+ 
+   .Box_Box h1 {
+     font-size: 18px;
+   }
+ 
+   .Box_Box p {
+     margin-left: 0;
+   }
+ 
+   .carousel-caption {
+     padding: 10px;
+   }
+ 
+   .formosF {
+     padding-left: 10%;
+     padding-top: 10%;
+     padding-bottom: 20%;
+   }
+ 
+   textarea, input {
+     width: 90%;
+   }
+ 
+   .history_main p {
+     padding: 3% 10%;
+ }
+ 
+ .str2{
+  margin:20px;
+   width: 65%;
+ }
+ 
+ 
+ .line{
+   width: 80%;
+   height: 1px;
+   background-color: #000;
+   margin: 5px 0;
+ }
+ 
+ }
+
+
+
+ .Armagedonas{
+
+  display: flex;
+  font-weight: bold;
+  justify-content: space-evenly;
+}
+
+button{
+
+  padding: 0;
+  border: none;
+  background: none;
+}
+p{
+  text-align: center;
+}

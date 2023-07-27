@@ -5,8 +5,8 @@
         $name = trim($_POST['vardas']);
         $email = trim($_POST['email']);
         $message = trim($_POST['zinute']);
-        // if(!empty($vardas) && !empty($email) && !empty($zinute)) {
-        //     if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if(!empty($name) && !empty($email) && !empty($message)) {
+            if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
                 define("DB_SERVER", "localhost");
                 define("DB_USER", "root");
                 define('DB_PASSWORD', 'root');
@@ -21,7 +21,7 @@
                     VALUES('$_POST[vardas]', '$_POST[email]', '$_POST[zinute]')");
                     
         
-    }
+         }}}
 
 
 
