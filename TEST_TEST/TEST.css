@@ -10,11 +10,12 @@ button{
   padding: 0;
   border: none;
   background: none;
+  
 }
-p #vidurys{
+#vidurys {
   display: flex;
- width: 100%;
-  text-align: center;
+  justify-content: center;
+  
 }
 
 
