@@ -91,6 +91,9 @@ body html {
 
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 .image-center {
@@ -134,6 +137,7 @@ body html {
 
 p {
   color: #797c7c;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .page2 p {
@@ -180,6 +184,13 @@ p {
   position: relative;
   display: inline-block;
   
+}
+
+.play:hover {
+  
+  box-shadow: 5px 5px 10px 0px rgba(27, 27, 27, 0.315);
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .playwhite {
@@ -246,10 +257,10 @@ h4 {
 .deze iframe, .deze2 iframe, .deze3 iframe {
   width:100%;
 padding-bottom: 5%;
-width:560px; 
+ 
 height:315px; 
 border: 0; 
-
+padding-right: 5%;
 }
 
 .page4:after {
@@ -300,7 +311,7 @@ border: 0;
   
 .page6 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:repeat(3, 1fr);
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -565,6 +576,7 @@ input  {
 .deze iframe, .deze2 iframe, .deze3 iframe{
   max-width: 230%;
   max-height: 60%;
+  width: 200%;
 }
 
 .deze2:nth-child(1) {
@@ -599,9 +611,7 @@ input  {
     
   }
 
-  .page5{
-    
-  }
+  
 
   .page6 {
     display: flex;
@@ -740,6 +750,7 @@ input  {
  .deze iframe, .deze2 iframe, .deze3 iframe{
    max-width: 230%;
    max-height: 60%;
+  min-width: 200%;
  }
  
  .deze2:nth-child(1) {
@@ -770,6 +781,7 @@ input  {
      margin-left: 5%;
      margin-right: 5%;
      padding: 2%;
+     
      
      
    }
@@ -853,6 +865,9 @@ input  {
 
 #vidurys {
   padding-left: 10%;
+  text-align: center;
+    padding-top: 5%;
+    padding-right: 10%;
 }
 
 

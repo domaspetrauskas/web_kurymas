@@ -5,11 +5,11 @@
 
 var options = [
 
-    'pirmo desc',
-    'antro desc',
-    'trecio desc',
-    'ketvirto desc',
-    'penkto desc',
+    'THIS',
+    'SITE',
+    'IS',
+    'AMAZING',
+    '<3',
   
   ]
   
